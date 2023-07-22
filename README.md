@@ -18,7 +18,7 @@ Table of contents added to easily navigate the readme file
 
   * [Usage](#usage)
 
-  * [licence](#licence)
+  * [license](#license)
 
 ## Installation
 
@@ -94,6 +94,6 @@ Add a .gitignore file and add node_modules to ensure the third-party packages ar
 ![Screenshot 2023-07-22 at 11 37 36 am](https://github.com/jarrodbb/Professional-README-Generator/assets/132813348/2f428e6a-a901-4600-a81d-5a7fd56031f0)
 ![Screenshot 2023-07-22 at 11 37 43 am](https://github.com/jarrodbb/Professional-README-Generator/assets/132813348/568def18-b126-4f49-8fda-5ae7be3a6669)
 
-## Licence
+## License
 
 Please refer to the licence in the repo.
