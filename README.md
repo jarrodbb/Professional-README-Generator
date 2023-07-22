@@ -56,7 +56,9 @@ Add a .gitignore file and add node_modules to ensure the third-party packages ar
 #### Video demo
 
 [google drive link](https://drive.google.com/file/d/1KvKIIOfSJ5YIl9gC2eF5ptj7PY75or35/view)
+
 [Github link .mp4](https://github.com/jarrodbb/Professional-README-Generator/blob/main/assets/video/readme%20demo.mp4)
+
 [Github link .webm](https://github.com/jarrodbb/Professional-README-Generator/blob/main/assets/video/readme%20demo.webm)
 
 ## Usage
