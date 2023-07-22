@@ -39,7 +39,7 @@
   ## Contributing
 
   Please follow these instructions to be able to contribute to this project, 
-  email me or open an isssue on Github 
+  email me or open an issue on Github 
 
   ## Tests
 
