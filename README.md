@@ -18,7 +18,7 @@ Table of contents added to easily navigate the readme file
 
   * [Usage](#usage)
 
-  * [License](#license)
+  * [licence](#licence)
 
 ## Installation
 
