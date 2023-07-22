@@ -12,6 +12,14 @@ These prompted question form the structure of the readme
 
 Table of contents added to easily navigate the readme file
 
+## Table of Contents
+
+  * [Installation](#installation)
+
+  * [Usage](#usage)
+
+  * [License](#license)
+
 ## Installation
 
 ### Ensure a package.json file exsits
