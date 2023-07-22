@@ -1,21 +1,12 @@
-//TODO
-//add git ignore
-//table of contents
-// description, installation instructions
-// TODO: Include packages needed for this application
-//usage inforamtion
-// contribution guiidlines
-// test instructions
-//licnese with badge - utils folder ****
-//Questions - include //github username + email
-
-// const questions = [];
-// TODO: Create an array of questions for user input
-
+// Constants are declared to be able to use inquirer
 const inquirer = require("inquirer");
+// to get the fs package, Call the function require and assign to constant fs
 const fs = require("fs");
+// link function from generateMarkdown.js
 const generateMarkdown = require("../utils/generateMarkdown");
 
+//Inquirer
+//Each question to ask the user is broken down in .prompt
 inquirer
   .prompt([
     {
@@ -39,9 +30,9 @@ inquirer
       message: "Please write a short desciption of your project",
     },
     {
-      type: "list",
+      type: "list", // List is used as the type to be able to give the user a selection of licenses
       name: "license",
-      message: "What kind of license should project have?",
+      message: "What kind of license should your project have?",
       choices: [
         "No license",
         "Apache License 2.0",
@@ -82,9 +73,14 @@ inquirer
   .then((response) => {
     console.log(response);
 
+    //generateMarkdown function is called with the response from inquirer as the argument and assigned to a constant variable
     const readmePageContent = generateMarkdown(response);
 
-    fs.writeFile("../readme/README.md", readmePageContent, (err) =>
-      err ? console.log(err) : console.log("Successfully created readme.md!")
+    //fs.writeFile is used to write the readme file with the correct file format and readmePageContent
+    fs.writeFile(
+      "../readme/README.md",
+      readmePageContent,
+      (err) =>
+        err ? console.log(err) : console.log("Successfully created readme.md!") //If there is an error, it will be console logged else, the message "Successfully created readme.md!" will be displayed
     );
   });
