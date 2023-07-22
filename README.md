@@ -48,7 +48,9 @@ Add a .gitignore file and add node_modules to ensure the third-party packages ar
 #### JavaScript
 
 [index.js](https://github.com/jarrodbb/Professional-README-Generator/blob/main/assets/js/index.js)
+
 [package.json](https://github.com/jarrodbb/Professional-README-Generator/blob/main/assets/js/package.json)
+
 [generateMarkdown.js](https://github.com/jarrodbb/Professional-README-Generator/tree/main/assets/utils)
 
 #### Video demo
